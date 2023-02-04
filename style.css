@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 1em;
+    background: #63cdda;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+}
+
+.div {
+    display: block;
+}
+
+.Card {
+    width: 100%;
+    background: #f7d794;
+    padding: 2em;
+    border-radius: 30px;
+    max-width: 420px;
+    margin: 1em;
+    color: black;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+input.search-bar {
+    border: none;
+    outline: none;
+    background: #7c7c72b;
+    padding: -0.2em;
+    color: black;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    /* border: none; */
+    height: 46p;
+    outline: none;
+    /* color: white; */
+    cursor: pointer;
+    transition: 0.2s;
+    animation-timing-function: ease-in-out;
+}

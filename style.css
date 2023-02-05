@@ -9,13 +9,15 @@ body {
     font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
 background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .div {
     display: block;
 }
 
-.Card {
+.card {
     width: 100%;
     background: #f7d794;
     padding: 2em;
